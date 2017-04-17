@@ -1,7 +1,7 @@
 # test coverage for  [protractor (v5.1.1)](https://github.com/angular/protractor)  [![npm package](https://img.shields.io/npm/v/npmtest-protractor.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-protractor) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-protractor.svg)](https://travis-ci.org/npmtest/node-npmtest-protractor)
 #### Webdriver E2E test wrapper for Angular.
 
-[![NPM](https://nodei.co/npm/protractor.png?downloads=true)](https://www.npmjs.com/package/protractor)
+[![NPM](https://nodei.co/npm/protractor.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/protractor)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-protractor/tree/alpha)|
 |--:|:--|
@@ -9,11 +9,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-protractor/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-protractor/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-protractor/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-protractor/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-protractor/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-protractor/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-protractor/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-protractor/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-protractor/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-protractor%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-protractor/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-protractor/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-protractor/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-protractor/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-protractor%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-protractor/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-protractor/build/test-report.html](https://npmtest.github.io/node-npmtest-protractor/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-protractor/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-protractor/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-protractor/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-protractor/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-protractor/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-protractor/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-protractor/build/screenCapture.npmPackageListing.svg)
 
@@ -27,8 +33,7 @@
 
 {
     "author": {
-        "name": "Julie Ralph",
-        "email": "ju.ralph@gmail.com"
+        "name": "Julie Ralph"
     },
     "bin": {
         "protractor": "bin/protractor",
@@ -106,17 +111,14 @@
     "main": "built/index.js",
     "maintainers": [
         {
-            "name": "juliemr",
-            "email": "ju.ralph@gmail.com"
+            "name": "juliemr"
         },
         {
-            "name": "angularcore",
-            "email": "angular-core+npm@google.com"
+            "name": "angularcore"
         }
     ],
     "name": "protractor",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/angular/protractor.git"
